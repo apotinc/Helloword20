@@ -2,5 +2,5 @@
 FROM tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "Apoti Eri" 
+MAINTAINER "Apoti Eri - Lionel" 
 #COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
