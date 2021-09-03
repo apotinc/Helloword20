@@ -5,4 +5,4 @@ FROM tomcat:8-jre8
 MAINTAINER "Sandra My Love" 
 COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
 EXPOSE 8080
-#Commenting
+#Commenting on the file
