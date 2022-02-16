@@ -1,5 +1,5 @@
 # Pull base image 
-FROM tomcat:8-jre8 
+FROM tomcat
 
 # Maintainer 
 MAINTAINER "Apoti Eri - Lionelmonbb" 
