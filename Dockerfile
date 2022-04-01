@@ -1,7 +1,7 @@
 # Pull base image 
 FROM centos
 # LABEL 
-LABEL "Apoti Eri" "apoti@apotieri.com" 
+LABEL maintainer="Apoti Eri" 
 # Update server
 RUN yum update -y
 # Apps to be installed
