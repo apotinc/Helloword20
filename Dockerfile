@@ -1,5 +1,5 @@
 # Pull base image 
-FROM centos
+FROM centos:centos7.9.2009
 # LABEL 
 LABEL maintainer="Apoti Eri" 
 # Update server
