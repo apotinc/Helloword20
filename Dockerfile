@@ -5,7 +5,7 @@ LABEL maintainer="Apoti Eri"
 # Update server
 RUN yum update -y
 # Apps to be installed
-RUN yum install httpd wget finger
+RUN yum install httpd wget finger -y
 ##COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
 EXPOSE 80
 # Run webserver app
