@@ -1,5 +1,3 @@
-# Declarative Jenkinsfile
-
 pipeline {
     agent any
     tools {
