@@ -1,3 +1,5 @@
+# Declarative Jenkinsfile
+
 pipeline {
     agent any
     tools {
@@ -15,19 +17,19 @@ pipeline {
         }
          stage('test') {
             steps {
-                echo 'Hello test'
+                echo 'Hello Ms Carine'
                 sleep 5
             }
         }
          stage('deploy') {
             steps {
-                echo 'Hello deploy'
+                echo 'Hello Mr Okey'
                sh 'pwd'
             }
         }
          stage('push') {
             steps {
-                echo 'Hello push'
+                echo 'Hello Maman Angele'
                 sh 'docker ps'
             }
         }
@@ -35,7 +37,7 @@ pipeline {
 
 post {
         always {
-            echo "Always display this message "
+            echo "This constant message "
         }
         failure {
             echo "Job failed "
